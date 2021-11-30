@@ -5,6 +5,7 @@
 }
 :root {
     --clr-primary : #12CCE5;
+    --clr-bg: #F8F8F8;
 }
 html {
     font-size: 62.5%;
@@ -19,8 +20,9 @@ html {
 header {
     position: fixed;
     width: 100%;
-    top: 3rem;
-    background-color: white;
+    z-index: 1;
+    top: 5.5rem;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,3 +64,45 @@ nav ul {
     padding: 1.4rem 2.6rem 1.4rem;
     border-radius: 1rem;
 }
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 98%;
+    background-color:var(--clr-bg);
+    height: 120vh;
+    border-radius: 1.6rem;
+    margin: 2.5rem auto;
+}
+.content-wrapper h1{
+font-size: 8rem;
+}
+.content-wrapper h4{
+    margin: 4rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+    }
+    .content-wrapper input {
+        border: none;
+        padding: 2rem 14rem;
+        /* width: 500px; */
+        
+    }
+.content-wrapper input::placeholder {
+    font-size: 2rem;
+    width: 300px;    
+}
+.content-wrapper input[type="text"]
+{
+    font-size:2rem;
+}
+.content-wrapper  input:focus, textarea:focus
+{
+border: 1px solid #12CCE5;
+font-size: 2rem;
+outline-offset: 0px;
+outline: none;
+}
+
