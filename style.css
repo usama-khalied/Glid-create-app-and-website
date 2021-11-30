@@ -21,6 +21,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
+    transition: .2s all;
     top: 5.5rem;
     background-color: transparent;
     display: flex;
@@ -64,19 +65,45 @@ nav ul {
     padding: 1.4rem 2.6rem 1.4rem;
     border-radius: 1rem;
 }
+.search-bar  .signup {
+    background-color: white;
+    padding: 1.4rem 2.2rem 1.4rem;
+    border-radius: 1rem;
+}
+.menu-bar {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.menu-bar .fas {
+    font-size: 2.5rem;
+}
+
+
+
+/* -- hero section  */
+
+
+
 .container-1 {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     position: relative;
     width: 98%;
     background-color:var(--clr-bg);
-    height: 120vh;
+    height: 140vh;
     border-radius: 1.6rem;
-    margin: 2.5rem auto;
+    margin: 0rem auto;
+    background: url(images/hero-gradient.jpg);
+    background-position:bottom;
+    background-size:100vw;
+     background-repeat: no-repeat;
 }
 .content-wrapper h1{
+    margin: 0 0 0;
 font-size: 8rem;
 }
 .content-wrapper h4{
@@ -86,14 +113,14 @@ font-size: 8rem;
     }
     .content-wrapper input {
         border: none;
-        padding: 2rem 14rem;
+        padding: 2rem;
         /* width: 500px; */
         border-radius: 1.4rem;
         
     }
 .content-wrapper input::placeholder {
     font-size: 2rem;
-    width: 300px;    
+    width: 600px;    
 }
 .content-wrapper input[type="text"]
 {
@@ -107,6 +134,7 @@ outline-offset: 0px;
 outline: none;
 }
 .content-wrapper a {
+    margin: 0 1rem;
     padding: 2rem 5rem;
     background-color: var(--clr-primary);
     text-decoration: none;
@@ -115,4 +143,53 @@ outline: none;
     font-weight: 700;
     border-radius: 1.2rem;
 }
+.container-1 .hero-img {
+   width: 80vw;
 
+   position: absolute;
+   bottom: 0;
+   transform: translateY(65%);
+}
+.container-1 .hero-img img{
+    width: 100%;
+}
+@media (max-width:1300px){
+    header {
+   top: 0;
+    }
+ 
+}
+@media (max-width:1024px){
+    .menu-bar{
+        display:inline-flex;
+    }
+    nav ul {
+        display: none;
+        text-align: left;
+    }
+    .search-bar {
+        display: none;
+    }
+    nav {
+        margin:0 0;
+        justify-content: space-between;
+    }
+    .content-wrapper h1{
+    font-size: 4rem;
+    margin: 2rem 0 0;
+    }
+    .content-wrapper h4{
+        margin: 4rem 2rem;
+        }
+        .input-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .input-area a {
+            margin: 2rem 0 0;
+        }
+}
+
+
+/* -- section-2 start */
