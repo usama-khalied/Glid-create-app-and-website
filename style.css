@@ -96,14 +96,14 @@ nav ul {
     background-color:var(--clr-bg);
     height: 140vh;
     border-radius: 1.6rem;
-    margin: 0rem auto;
-    background: url(images/hero-gradient.jpg);
-    background-position:bottom;
-    background-size:100vw;
-     background-repeat: no-repeat;
+    margin: 3rem auto;
+
+}
+.content-wrapper {
+    margin: -8rem 0 0;
 }
 .content-wrapper h1{
-    margin: 0 0 0;
+    /* margin: 0 0 0; */
 font-size: 8rem;
 }
 .content-wrapper h4{
@@ -193,3 +193,17 @@ outline: none;
 
 
 /* -- section-2 start */
+.container-2 {
+    width: 100%;
+
+}
+.container-2 .linear {
+    width: 98%;
+    border-radius: 1.6rem;
+    margin: 0 auto;
+    height: 60vh;
+    background: url(images/hero-gradient.jpg);
+    background-position:center;
+    background-size:cover;
+     background-repeat: no-repeat;
+}
