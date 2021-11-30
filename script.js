@@ -1,6 +1,6 @@
 const header = document.querySelector('header');
 function changeBackground() {
-    if(window.scrollY >= 80){
+    if(window.scrollY >= 20){
         header.style.backgroundColor="white";
     }
     else {
