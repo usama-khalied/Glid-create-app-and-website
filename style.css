@@ -191,7 +191,11 @@ outline: none;
         }
 }
 
-
+@media (max-width:480px){
+    .content-wrapper {
+        margin: -2rem 0 0;
+    }
+}
 /* -- section-2 start */
 .container-2 {
     width: 100%;
