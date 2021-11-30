@@ -88,6 +88,7 @@ font-size: 8rem;
         border: none;
         padding: 2rem 14rem;
         /* width: 500px; */
+        border-radius: 1.4rem;
         
     }
 .content-wrapper input::placeholder {
@@ -104,5 +105,14 @@ border: 1px solid #12CCE5;
 font-size: 2rem;
 outline-offset: 0px;
 outline: none;
+}
+.content-wrapper a {
+    padding: 2rem 5rem;
+    background-color: var(--clr-primary);
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 1.2rem;
 }
 
