@@ -234,3 +234,9 @@ outline: none;
     margin: 2rem;
 }
 }
+@media (max-width:520px){
+    .container-2 .linear {
+ 
+        height: 30vh;
+    }
+}
