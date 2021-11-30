@@ -227,6 +227,11 @@ outline: none;
     flex-direction: column;
     align-items: center;
 }
+.container-2 .linear {
+ 
+    height: 30vh;
+    margin:-1rem  0 0;
+}
 .container-2 h4 {
     margin: 4rem 2rem;
 }
@@ -235,8 +240,6 @@ outline: none;
 }
 }
 @media (max-width:520px){
-    .container-2 .linear {
- 
-        height: 30vh;
-    }
+
+
 }
