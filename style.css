@@ -240,6 +240,10 @@ outline: none;
 }
 }
 @media (max-width:520px){
-
+    .container-2 .linear {
+ 
+        height: 30vh;
+        margin:-1rem  0 0;
+    }
 
 }
