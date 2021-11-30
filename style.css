@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --clr-primary : #12CCE5;
+}
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
@@ -11,4 +14,51 @@ html {
 .logo h2 {
     color: black;
     font-size: 3rem;
+    font-style: italic;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 3rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    margin: 3rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+nav ul li {
+    font-size: 1.6rem;
+    margin: 0 3rem 0;
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.search-bar a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 0 2rem 0;
+    color: black;
+
+}
+.search-bar .fas {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:rgba(0, 0,0, 0.8)
+}
+.search-bar  .login {
+    background-color: var(--clr-primary);
+    padding: 1.4rem 2.6rem 1.4rem;
+    border-radius: 1rem;
 }
