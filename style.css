@@ -473,13 +473,204 @@ flex-direction: column;
         width: 100%;
         
     }
-    /* .show-col h5 , h1 , h4 {
-margin: 3rem 3rem;
+}
+
+/* --section-6 start */
+
+.tutorials {
+    width: 100%;
+}
+.row-tutor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  .col-tutor-2 , .col-tutor-3{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+.col-tutor-2 img, .col-tutor-3 img{
+    border-radius: 2rem;
+}
+.col-tutor-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col-tutor-1 .background-image {
+    width: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* background-color: var(--clr-bg); */
+    height: 230px;
+    border-radius: 2rem;
+    background: url(images/glide-90-sec.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .col-tutor-2 img, .col-tutor-3 img{
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.text-tutor h2{
+font-size: 3rem;
+font-weight: 400;
+margin: 2rem 0 0;
+}
+.text-tutor p {
+    margin: 1rem 0 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.section-btn {
+    display: flex;
+    width: 100%;
+}
+.section-btn  a{
+
+margin: 6rem auto;
+font-size: 2.2rem;
+text-decoration: none;
+color: black;
+padding: 1.3rem 3rem;
+background-color: white;
+border-radius: 1.5rem;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+@media (max-width:1024px){
+    .row-tutor {
+flex-direction: column;
+align-items: center;
     }
-    .drag-col-2 h5 , h1 , h4 {
-        margin: 3rem 3rem;
+    .col-tutor-2 , .col-tutor-3{
+margin: 3rem 0 0;
     }
-    .col-conn h5 , h1 , h4{
-        margin: 3rem 3rem;
+}
+
+/* --section-8 start */
+
+.rule {
+    width: 98%;
+    background-color: #202125;
+    border-radius: 1.4rem;
+    margin: 0 auto;
+    padding: 6rem 0 0;
+}
+.rule-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem 0;
+}
+.rule-text h1 {
+    font-size: 7rem;
+    color: white;
+    font-weight: 700;
+}
+.rule-text a {
+    padding: 2rem 5rem;
+    background-color: var(--clr-primary);
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    margin: 3rem 0 0;
+    font-weight: 700;
+    border-radius: 1.2rem;
+}
+.rule-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 8rem 0;
+    justify-content: space-evenly;
+}
+.col-rule {
+    width: 35%;
+}
+.col-rule-vid {
+    width: 60%;
+    height: auto;
+}
+.col-rule-vid video {
+    width: 100%;
+}
+.rule-wrapper {
+    display:flex;
+    align-items: center;
+}
+.rule-wrapper:nth-child(2){
+    margin: 8rem 0 0;
+}
+.rule-wrapper:nth-child(3){
+    margin: 8rem 0;
+}
+.rule-wrapper .hading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4D4D51;
+    /* padding: .4rem .8rem; */
+    margin: 0 1rem;
+    width: 80px;
+    color: white;
+    height: 80px;
+    font-size: 4rem;
+} 
+.rule-wrapper  h4{
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+.rule-wrapper p {
+    margin: 1rem 0 0;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.rule-wrapper-2 {
+    width: 60%;
+    margin: 0 3rem 0;
+}
+@media (max-width:1024px){
+    .rule-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    /* .rule-wrapper-2 {
+        width: 100%;
+    }
+    .rule-wrapper {
+        width: 100%;
+    } */
+    .col-rule {
+        width: 100%;
+    }
+    .rule-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .rule-wrapper-2 {
+        margin: 1rem 0 0;
+    }
+    .col-rule-vid {
+        width: 80%;
+        margin: 0 0 6rem;
+    }
+    .rule-text {
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+    }
+   
+    /* .rule-text a {
+   display: inline-;
     } */
 }
