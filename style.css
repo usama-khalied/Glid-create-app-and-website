@@ -852,8 +852,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 .footer  {
     width: 100%;
 background-color: #1F2024;
-height: 80vh;
-padding: 6rem 10em 0;
+height: auto;
+padding: 6rem 10em 8rem;
 }
 .footer-row {
     margin: 4rem 0rem 0 ;
@@ -872,14 +872,33 @@ padding: 6rem 10em 0;
         background-size: cover;
     
 }
-.col-foot ul li {
-    color: white;
-    margin: 2rem 1rem 0;
-    list-style: none;
-}
+
 .col-foot h4 {
     color: white;
     font-weight: 400;
     margin: 2rem 0;
     font-size: 2rem;
+}
+.col-foot-1 , .col-foot-2 , .cool-foot-3 , .col-foot-4 {
+    margin: 1rem 0 0;
+}
+.col-foot-1 p , .col-foot-2 p, .col-foot-3 p , .col-foot-4 p {
+    color: grey;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 2rem 0 0;
+} 
+.col-foot-1 span , .col-foot-2 span, .col-foot-3 span , .col-foot-4 span {
+   color: white;
+} 
+.bottom-foot ul {
+    display: flex;
+    margin: 10rem 0 0;
+}
+.bottom-foot ul li {
+    margin: 0 1rem 0;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
