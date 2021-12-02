@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 :root {
     --clr-primary : #12CCE5;
@@ -769,4 +770,116 @@ flex-direction: column;
     .temp-gellery {
     flex-wrap: wrap;
     }
+}
+
+/* --section-10 start */
+
+.container-10 {
+    width: 100%;
+    height: 150vh;
+    overflow-y: hidden;
+margin: 4rem 0 0;
+padding-top: 6rem;
+background-color: var(--clr-primary);
+}
+.foot-text {
+    margin: 3rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-text h1 {
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    margin: 0 0 4remx; 
+}
+.foot-text h4 {
+    font-size: 1.7rem;
+    color: white;
+    margin: 3rem 0 0;
+    text-align: center;
+}
+.foot-text a {
+    margin: 6rem  0 0;
+    text-align: center;
+font-size: 2.2rem;
+text-decoration: none;
+color: black;
+padding: 1.3rem 3rem;
+background-color: white;
+border-radius: 1.5rem;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.foot-top-row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot-image {
+    width: 90%;
+}
+.foot-image img  {
+    width: 100%;
+
+}
+@media (max-width:1024px){
+    .foot-text h1 {
+        text-align: left;
+        font-size: 5rem;
+
+    }
+    .foot-text h4 {
+        text-align: left;
+    }
+    .foot-text {
+        margin: 3rem 3rem 0;
+        /* width: 100%; */
+    }
+    .foot-image {
+        width: 90%;
+        margin: 3rem 0 0;
+
+    }
+    .container-10 {
+
+        height: auto;
+    }
+}
+/* --footer-section */
+
+.footer  {
+    width: 100%;
+background-color: #1F2024;
+height: 80vh;
+padding: 6rem 10em 0;
+}
+.footer-row {
+    margin: 4rem 0rem 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-row .col-foot .background-image { 
+        width: 400px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        height: 230px;
+        border-radius: 2rem;
+        background: url(images/glide-90-sec.jpg);
+        background-position: center;
+        background-size: cover;
+    
+}
+.col-foot ul li {
+    color: white;
+    margin: 2rem 1rem 0;
+    list-style: none;
+}
+.col-foot h4 {
+    color: white;
+    font-weight: 400;
+    margin: 2rem 0;
+    font-size: 2rem;
 }
