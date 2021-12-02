@@ -163,6 +163,7 @@ outline: none;
 @media (max-width:1024px){
     .menu-bar{
         display:inline-flex;
+        margin-right: 1rem;
     }
     nav ul {
         display: none;
