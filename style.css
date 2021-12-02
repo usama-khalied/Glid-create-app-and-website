@@ -671,8 +671,102 @@ margin: 3rem 0 0;
      justify-content: center;
      
     }
-   
-    /* .rule-text a {
-   display: inline-;
-    } */
+}
+
+/* --section-9 start */
+
+.template {
+    overflow-x: hidden;
+    width:100%;
+    padding: 5rem 0 0;
+}
+.temp-row {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.temp-col {
+    width: 50%;
+}
+.temp-col-2 {
+    margin: 0  0 0;
+    width: 50%;
+}
+.temp-gellery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowraps;
+}
+.temp-gellery:nth-child(1){
+    margin-left: 20rem;
+}
+.temp-gellery:nth-child(2){
+    /* margin: 0  -7rem 0; */
+    margin-left: 10rem;
+}
+.temp-gellery:nth-child(3){
+    /* margin: 0 1rem 0; */
+    margin-left: 2rem;
+}
+.temp-gellery:nth-child(4){
+    /* margin: 0 5rem 0; */
+/* margin-left: rem */
+margin-right: 3rem;
+}
+.temp-gellery img {
+    width: 80px;
+    margin: 2.5rem 2rem 0;
+    border-radius: 1.6rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.temp-col {
+    padding: 3rem 4rem;
+}
+.temp-col p {
+    color: var(--clr-primary);
+    font-size: 800;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+.temp-col h1 {
+    font-size: 5rem;
+}
+.temp-col   span {
+    font-size: 5rem;
+    color: var(--clr-primary);
+}
+.temp-col h4 {
+    margin: 5rem 0 7rem;
+    font-size: 2rem;
+    /* color: white; */
+    font-weight: 400;   
+}
+.temp-col a {
+    padding: 1.7rem 3rem;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 700;
+    border-radius: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media (max-width:1024px){
+    .temp-row {
+flex-direction: column;
+    }
+    .temp-col {
+        width: 100%;
+    }  
+    .temp-col-2 {
+        width: 100%;
+    }
+    .temp-gellery:nth-child(1) , .temp-gellery:nth-child(2) , .temp-gellery:nth-child(3) , .temp-gellery:nth-child(4){
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .temp-gellery {
+    flex-wrap: wrap;
+    }
 }
