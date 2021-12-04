@@ -4,7 +4,6 @@ function changeBackground() {
     if(window.scrollY >= 20){
         header.style.backgroundColor="white";
         header.style.top="0";
-        // nav.style.margin="0 0";
     }
     else {
         header.style.backgroundColor="transparent";
@@ -14,3 +13,17 @@ function changeBackground() {
     }
 }
 window.addEventListener("scroll", changeBackground);
+
+
+// ---- swipper ---slider horezontal move
+
+var swiper = new Swiper(".mySwiper", {
+    direction: "horizontal",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
