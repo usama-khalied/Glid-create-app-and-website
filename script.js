@@ -19,11 +19,54 @@ window.addEventListener("scroll", changeBackground);
 
 var swiper = new Swiper(".mySwiper", {
     direction: "horizontal",
-    slidesPerView: 1,
-    spaceBetween: 30,
+    slidesPerView: 5,
+    duration : .1,
+    spaceBetween: 5,
     mousewheel: true,
+    autoplay : true,
+ 
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
+      clickable: false,
     },
   });
+
+//   ---jquery--library
+// $('.rightarrow, .leftarrow').hide();
+
+// $('#scrolldiv_container').mouseenter(function(){
+//     $('.rightarrow, .leftarrow').show();
+//     clearInterval(siId);
+// })
+// $('#scrolldiv_container').mouseleave(function(){
+//     $('.rightarrow, .leftarrow').hide();
+//         si();
+// });
+
+// $('.rightarrow').click(function () {
+//     var leftPos = $('#browser').scrollLeft();
+//     <!--1000 * 6 (aantal slides - 1)-->
+//     if (leftPos == 6000) {
+//         $('#browser').animate({
+//             scrollLeft: 0
+//         }, 400);
+//     } else {
+//         $('#browser').animate({
+//             scrollLeft: leftPos + 1000
+//         }, 150);
+//     }
+// });
+
+// $('.leftarrow').click(function () {
+//     var leftPos = $('#browser').scrollLeft();
+//     if (leftPos == 0) {
+//         $('#browser').animate({
+//             <!--1000 * 6 (aantal slides - 1)-->
+//             scrollLeft: 6000
+//         }, 400);
+//     } else {
+//         $('#browser').animate({
+//             scrollLeft: leftPos - 1000
+//         }, 150);
+//     }
+// }); 
